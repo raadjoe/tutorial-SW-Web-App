@@ -30,6 +30,7 @@ In this session you will learn how to:
 ## Steps
 
 * Create a new repository in GraphDB, and name it `repo-VU`
+* Import the `vuDataset.ttl` dataset into this repository (Import --> RDF --> Upload RDF Files)
 * Test the following SPARQL query in your `repo-VU` repository (see `Screenshot-Query.png` from this directory)
 ```
 SELECT ?teacher (COUNT(?course) AS ?nbr_courses)
